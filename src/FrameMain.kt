@@ -85,6 +85,7 @@ class FrameMain
 	private fun initFrame()
 	{
 		frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+		frame.iconImage = ImageIcon("icon.png").image
 		frame.isVisible = true
 		frame.pack()
 	}
